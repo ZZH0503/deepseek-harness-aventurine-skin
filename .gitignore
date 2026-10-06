@@ -1,0 +1,8 @@
+# 原始下载件（B站官方视频、用户提供的原图等）不入库：体积大且版权敏感
+assets/source/
+# 开发调试工具不入库
+tools/
+# 临时产物
+*.tmp
+node_modules/
+.DS_Store

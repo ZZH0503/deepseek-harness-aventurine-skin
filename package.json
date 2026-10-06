@@ -1,0 +1,32 @@
+{
+  "name": "dsh-aventurine-skin",
+  "version": "1.23.0",
+  "description": "《崩坏：星穹铁道》砂金·戏浪主题皮肤插件：深海洋底配色、多层景深、沉浸式双立绘、砂金桌宠与任务台词气泡、全屏开屏动画、完整设置控制。素材来自官方渠道，非商用同人作品。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+# dsh-aventurine-skin bundle patch.
+# 单一行（aventurine-skin）：宿主半 + 浏览器半共用同一个 loader 条目。
+# 宿主半注册素材路由 /aventurine-skin/*（见 lib/index.js），
+# 浏览器半（exports["./client"]）完成主题、景深、语音弹窗与动画。
+# 不要为宿主半再开第二个条目——client-modules 同包双条目会导致组合失败。
+- insert:
+    - id: aventurine-skin
+      name: "dsh-aventurine-skin"
+      config:
+        # 默认值；实际运行时的开关/音量由「设置 → 通用 → 砂金·戏浪皮肤」面板
+        # 实时修改并持久化到 localStorage（config 仅作首启兜底）。
+        voiceEnabled: true
+        ultEnabled: true
+        particlesEnabled: true
+        backdropEnabled: true
+        figureArt: float
+        figureOpacity: 0.95
+        figureSize: 52
+        figureBrightness: 1
+        petEnabled: true
+        petSize: 118
+        volume: 0.6
+        voiceCooldownMs: 60000
+        ultCooldownMs: 600000
+        cacheHitThreshold: 0.96
+        dialogAutoHideMs: 8000
