@@ -1,6 +1,6 @@
-# dsh-aventurine-skin
+# DeepSeek Harness 砂金·戏浪皮肤插件
 
-DeepSeek Harness 皮肤插件 —— 《崩坏：星穹铁道》「砂金·戏浪」（Aventurine • Waveflair）主题。
+（dsh-aventurine-skin）—— 《崩坏：星穹铁道》「砂金·戏浪」（Aventurine • Waveflair）主题。
 
 深海青蓝 × 金色筹码的终端整体换肤：多层景深、沉浸式双立绘、砂金桌宠、任务完成台词气泡、开屏动画。
 
